@@ -25,12 +25,12 @@ module.exports = {
     ],
     'import/first': 'error',
     'import/no-named-as-default': 'off',
-    'import/newline-after-import': ['error', {count: 1}],
-    'no-console': ['error', {allow: ['tron']}],
+    'import/newline-after-import': ['error', { count: 1 }],
+    'no-console': ['error', { allow: ['tron'] }],
     'no-spaced-func': 'off',
   },
   settings: {
-    'import/resolver': {
+    'import / resolver': {
       'babel-plugin-root-import': {
         rootPathSuffix: 'src',
       },
